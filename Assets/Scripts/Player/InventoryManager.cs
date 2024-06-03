@@ -7,10 +7,10 @@ public class InventoryManager : MonoBehaviour
     private void Update()
     {
         //delete
-        if(Input.GetKey(KeyCode.L) && Input.GetKey(KeyCode.P))
-        {
-            PlayerPrefs.DeleteAll();
-            Debug.Log("DeleteKeys");
-        }
+        //if(Input.GetKey(KeyCode.L) && Input.GetKey(KeyCode.P))
+        //{
+        //    PlayerPrefs.DeleteAll();
+        //    Debug.Log("DeleteKeys");
+        //}
     }
 }

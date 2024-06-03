@@ -184,7 +184,6 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-                Debug.Log("Smth");
                 interactionPointer.color = whiteColor;
             }
         }
